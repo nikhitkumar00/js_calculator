@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Bruno+Ace&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+body {
+    font-family: 'Comfortaa';
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Bruno Ace';
+}
+
+.head-btn {
+    border: 0px;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    box-shadow:0px 0px 2px black;    
+}
+
+.head-btn:hover {
+    background-color: black;
+    color: aliceblue;
+    transition: all 0.1s ease-in-out;
+}
+
+.content {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    box-shadow:0px 0px 5px black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.labels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.eachlabel {
+    width: 150px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 10px;
+}
+.operation {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow:0px 0px 2px black;
+    border: 0px;
+}
+
+.inputs {
+    border: 0px;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    box-shadow:0px 0px 2px black;
+    padding-left: 10px;
+}
+.result {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0px 0px 2px black;
+    border-radius: 20px;
+}

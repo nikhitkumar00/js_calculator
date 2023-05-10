@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <header>
+        <button class="head-btn">More Projects</button>
+        <h1>Nikhit Kumar</h1>
+        <a href="https://nikhitkumar.netlify.app/"><button class="head-btn">Portfolio</button></a>
+    </header>
+    <div class="content">
+        <div class="container">
+            <div class="labels">
+                <div class="eachlabel">
+                    <label for="num1" >First Number</label>
+                    <input type="number" id="num1" class="inputs">
+                </div>
+                <div class="eachlabel">
+                    <label for="num2">Second Number</label>
+                    <input type="number" id="num2" class="inputs">
+                </div>
+            </div>
+
+            <div id="answer" class="result">Result</div>
+
+            <div class="buttons">
+                <button class="operation" onclick="add()">ADD</button>
+                <button class="operation" onclick="subtract()">SUBTRACT</button>
+                <button class="operation" onclick="multiply()">MULTIPLY</button>
+                <button class="operation" onclick="divide()">DIVIDE</button>
+                <button class="operation" onclick="exponent()">POWER</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
